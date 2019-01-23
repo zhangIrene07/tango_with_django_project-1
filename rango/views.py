@@ -19,4 +19,6 @@ def about(request):
     return HttpResponse("Rango says here is the about page.<a href='/rango/'>Index</a>")
 
 
+def about(request):
+     return render(request, 'rango/about.html')
 
